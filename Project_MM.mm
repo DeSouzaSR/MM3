@@ -1,7 +1,7 @@
 <map version="freeplane 1.5.9">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="MM3" LOCALIZED_STYLE_REF="default" FOLDED="false" ID="ID_769428002" CREATED="1492534445500" MODIFIED="1493043566640" BACKGROUND_COLOR="#66ccff"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true"/>
+    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -85,29 +85,36 @@
 <edge COLOR="#7c007c" WIDTH="4"/>
 <cloud COLOR="#ccffcc" SHAPE="ROUND_RECT"/>
 <node TEXT="" ID="ID_1498376623" CREATED="1493043730726" MODIFIED="1493043730726">
-<node TEXT="raw_data" ID="ID_1705173546" CREATED="1493043591183" MODIFIED="1493043623264">
-<node TEXT="2017-04-23-srds-mercury.csv" ID="ID_1554936895" CREATED="1493043624287" MODIFIED="1493043631192"/>
-<node TEXT="2017-04-23-srds-planets.csv" ID="ID_1451258287" CREATED="1493043670591" MODIFIED="1493043684536"/>
+<node TEXT="raw_data" ID="ID_1705173546" CREATED="1493043591183" MODIFIED="1493059045763">
+<node TEXT="2017-04-23-srds-raw-mercury.csv" ID="ID_1554936895" CREATED="1493043624287" MODIFIED="1493068045028"/>
+<node TEXT="2017-04-23-srds-raw-planets.csv" ID="ID_1451258287" CREATED="1493043670591" MODIFIED="1493068052803"/>
 </node>
 </node>
+<node TEXT="planet.csv" ID="ID_591553702" CREATED="1493067331683" MODIFIED="1493068012115"/>
+<node TEXT="mercury.csv" ID="ID_485976663" CREATED="1493068013457" MODIFIED="1493068019147"/>
 </node>
-<node TEXT="deliver" LOCALIZED_STYLE_REF="default" POSITION="right" ID="ID_1597477379" CREATED="1492540559829" MODIFIED="1493043555251" HGAP_QUANTITY="13.999999999999996 pt" VSHIFT_QUANTITY="-8.999999731779102 pt">
+<node TEXT="notebooks" LOCALIZED_STYLE_REF="default" POSITION="right" ID="ID_1944220593" CREATED="1493043223223" MODIFIED="1493059018558">
 <edge COLOR="#00ffff" WIDTH="4"/>
 <cloud COLOR="#ffcccc" SHAPE="ROUND_RECT"/>
-</node>
-<node TEXT="develop" LOCALIZED_STYLE_REF="default" POSITION="right" ID="ID_1944220593" CREATED="1493043223223" MODIFIED="1493043564369">
+<node TEXT="2017-04-23-srds-create-directory-tree.ipynb" LOCALIZED_STYLE_REF="default" ID="ID_1058030262" CREATED="1493043365663" MODIFIED="1493067429908">
+<icon BUILTIN="checked"/>
 <edge COLOR="#00ffff" WIDTH="4"/>
-<cloud COLOR="#ffcccc" SHAPE="ROUND_RECT"/>
-<node TEXT="2017-04-23-srds-create-directory-tree.ipynb" LOCALIZED_STYLE_REF="default" ID="ID_1058030262" CREATED="1493043365663" MODIFIED="1493043494806">
+</node>
+<node TEXT="2017-04-23-srds-write-input-files.ipynb" LOCALIZED_STYLE_REF="default" ID="ID_731288437" CREATED="1493059073758" MODIFIED="1493067437604">
+<icon BUILTIN="checked"/>
+<edge COLOR="#00ffff" WIDTH="4"/>
+</node>
+<node TEXT="2017-04-23-srds-create-planet-dataframe.ipynb" ID="ID_546487856" CREATED="1493067443363" MODIFIED="1493067876931">
 <icon BUILTIN="unchecked"/>
-<edge COLOR="#00ffff" WIDTH="4"/>
-<cloud COLOR="#ffcccc" SHAPE="ROUND_RECT"/>
+</node>
+<node TEXT="2017-04-23-srds-create-mercury-dataframe.ipynb" ID="ID_1489564838" CREATED="1493067956017" MODIFIED="1493067983260">
+<icon BUILTIN="unchecked"/>
 </node>
 </node>
 <node TEXT="README.md" POSITION="left" ID="ID_522858621" CREATED="1493043771046" MODIFIED="1493043782376">
 <edge COLOR="#7c007c"/>
 </node>
-<node TEXT="MM3.mm" POSITION="right" ID="ID_1748243366" CREATED="1493043796494" MODIFIED="1493043857873">
+<node TEXT="MM3.mm" POSITION="right" ID="ID_1748243366" CREATED="1493043796494" MODIFIED="1493059154345">
 <edge COLOR="#007c7c"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -121,7 +128,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
