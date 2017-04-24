@@ -1,0 +1,4 @@
+name_simulation: "Mercury"
+suffix_simu: ["A", "B", "C", "D"]
+number_clones: 6
+simulation_path: "../data/"
