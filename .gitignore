@@ -1,1 +1,2 @@
-
+# Ignore checkpoints
+deliver/.ipynb_checkpoints/
