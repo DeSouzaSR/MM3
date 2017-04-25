@@ -1,0 +1,16 @@
+Multiples Mercury
+-----------------
+
+* pipeline-mm.ipynb ---------------------> Pipeline
+* input/ --------------------------------> All inputs 
+	- planets.csv -------------------> Planets' data
+	- mercury.csv -------------------> Mercury's data
+	- extra-modules.py --------------> If necessary, includ extra modules
+	- figures.png -------------------> Figures to ilustration  
+* output/ -------------------------------> All outputs
+	- planets-include-angles.csv ----> Include random angles
+	- mercury-include-angles.csv ----> Include random angles
+	- mercury/ ----------------------> Simulation
+	- report/ -----------------------> PDFs, Notebooks, Analysis, ...
+	- figures/ ----------------------> All figures generated
+* README.md
